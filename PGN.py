@@ -10,12 +10,10 @@ class PGN:
         for line in content.split("\n"):
             if len(line)=="":
                 continue
-
             if not "[" in line:
                 pass
-
-            line.removeprefix("[")
-            line.removesuffix("]")
+            line=line.removeprefix("[")
+            line=line.removesuffix("]")
             if " " in line:
                 lineAr=line.split(" ")
                 match lineAr[0]:

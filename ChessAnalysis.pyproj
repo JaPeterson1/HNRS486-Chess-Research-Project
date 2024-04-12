@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5885e7c4-17b8-448a-aa06-6cdeabe3b6f5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Fetch.py</StartupFile>
+    <StartupFile>IndexPlayerGames.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,9 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ChessAnalysis.py" />
-    <Compile Include="Fetch.py" />
+    <Compile Include="IndexPlayerGames.py" />
     <Compile Include="Game.py" />
-    <Compile Include="Scrap\PGN.py" />
+    <Compile Include="PGN.py" />
     <Compile Include="pgnTest.py" />
   </ItemGroup>
   <ItemGroup>
@@ -43,9 +43,6 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Scrap\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
