@@ -24,7 +24,6 @@
   <ItemGroup>
     <Compile Include="ChessAnalysis.py" />
     <Compile Include="IndexPlayerGames.py" />
-    <Compile Include="Game.py" />
     <Compile Include="PGN.py" />
     <Compile Include="pgnTest.py" />
   </ItemGroup>
